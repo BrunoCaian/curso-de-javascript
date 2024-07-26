@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="box-nav">
+        <h1>EXERCÍCIO #02</h1>        
+    </div>
+    <div class="box">
+        <p>Leia 2 números. Efetue as 4 operações matemáticas e mostre os resultados.</p>
+        <input class="num" type="number" name="" id="number1" placeholder="Digite um valor">
+        <input class="num" type="number" name="" id="number2" placeholder="Digite outro valor">
+        <br>
+        <input type="radio" name="operation" id="adicao" value="adicao">
+        <label for="adicao">Adição</label>
+        <br>
+        <input type="radio" name="operation" id="subtracao" value="subtracao">
+        <label for="subtracao">Subtração</label>
+        <br>
+        <input type="radio" name="operation" id="multiplicacao" value="multiplicacao">
+        <label for="multiplicacao">Multiplicação</label>
+        <br>
+        <input type="radio" name="operation" id="divisao" value="divisao">
+        <label for="divisao">Divisão</label>
+        <br>
+        <button onclick="calculation()">Enviar</button>
+
+        <div id="resultado"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
