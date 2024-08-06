@@ -12,7 +12,7 @@ console.log(soma(6, 10))
 console.log(ePar(7))
 */
 
-/*function fatorial(n) {
+function fatorial(n) {
     if (n < 0) {
         return 0
     } else if (n === 0) {
@@ -22,9 +22,4 @@ console.log(ePar(7))
     }
 }
 
-console.log(fatorial(4))
-*/
-
-function ordenarArray(array) {
-
-}
+console.log(fatorial(5))
