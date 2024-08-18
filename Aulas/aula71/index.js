@@ -11,23 +11,7 @@ function Produto(nome, preco, estoque) {
       writable: true, // pode alterar
       configurable: false // configurável  
     })
-
-    Object.defineProperties(this, {
-     nome: {
-      enumerable: true, // mostra a chave
-      value: nome,// valor
-      writable: true, // pode alterar
-      configurable: false // configurável 
-     },
-     preco: {
-      enumerable: true, // mostra a chave
-      value: preco,// valor
-      writable: true, // pode alterar
-      configurable: false // configurável 
-     }   
-    })
 }
-
 const p1 = new Produto('Camisa', 20, 5)
 delete p1.estoque
 console.log(p1)
